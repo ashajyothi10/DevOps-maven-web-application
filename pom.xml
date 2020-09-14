@@ -95,17 +95,19 @@
 	
 	 <distributionManagement>
 	
-	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://18.188.148.4:8081/repository/ashavardhi2/</url>
-	    </repository>
+	
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <url>http://18.188.148.4:8081/repository/ashavardhi/</url>
 	    </snapshotRepository>
+		 
+	<repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://18.188.148.4:8081/repository/ashavardhi2/</url>
+	    </repository>
 	    
 	</distributionManagement>
 	
