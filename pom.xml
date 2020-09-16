@@ -100,13 +100,13 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.136.155.237:8080/repository/ashavardhi/</url>
+	      <url>http://18.222.183.225:8080/repository/ashavardhi/</url>
 	    </snapshotRepository>
 		 
 	<repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.136.155.237:8080/repository/ashavardhi2/</url>
+	      <url>http://18.222.183.225:8080/repository/ashavardhi2/</url>
 	    </repository>
 	    
 	</distributionManagement>
