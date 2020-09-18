@@ -9,17 +9,17 @@ node( )
     stage('build'){
         sh "${MavenHome}/bin/mvn clean package "
     }
-   // stage('cleaning code'){
-   //      sh "${MavenHome}/bin/mvn sonar:sonar "
-   // }
-   // stage('upload artifact to nexus'){
-   //     sh "${MavenHome}/bin/mvn deploy"
-  //  }
-   // stage('deploy2Tomcat'){
-      //  sshagent(['6edd0724-7aad-402a-8ec8-df8c1d077458']) {
-       //    sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@3.136.155.237:/opt/apache-tomcat/webapps/maven-web-application.war"
+   /* stage('cleaning code'){
+       sh "${MavenHome}/bin/mvn sonar:sonar "
+ }
+   stage('upload artifact to nexus'){
+       sh "${MavenHome}/bin/mvn deploy"
+  }
+ stage('deploy2Tomcat'){
+     sshagent(['6edd0724-7aad-402a-8ec8-df8c1d077458']) {
+          sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@3.136.155.237:/opt/apache-tomcat/webapps/maven-web-application.war"
             
         }
-    }
+    } */
  }
 
